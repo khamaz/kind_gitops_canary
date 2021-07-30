@@ -5,3 +5,8 @@ bases:
   - ./base
 patchesStrategicMerge:
   - patch.yaml
+
+images:
+  - name: ghcr.io/fluxcd/flagger
+    newName: ghcr.io/fluxcd/flagger
+    newTag: 1.12.1
