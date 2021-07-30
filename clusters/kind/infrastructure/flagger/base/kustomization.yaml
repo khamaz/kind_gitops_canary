@@ -1,0 +1,6 @@
+resources:
+  - serviceaccount.yaml
+  - crd.yaml
+  - deployment.yaml
+  - rbac.yaml
+  
